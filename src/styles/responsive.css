@@ -12,7 +12,7 @@
     }
 
     .hero-drawer {
-        background-image: url('../public/images/heros/hero-image_4.jpg');
+        background-image: url('../public/images/heros/hero-image_4-small.jpg');
         background-position: center;
         position: relative;
         isolation: isolate;
@@ -84,6 +84,15 @@
 }
 
 @media screen and (min-width: 700px) {
+    .hero {
+        background-image: url('../public/images/heros/hero-image_2.jpg');
+        background-position: center;
+        background-size: cover;
+        isolation: isolate;
+        color: white;
+        height: 380px;
+        position: relative;
+    }
     #content {
         display: grid;
         grid-template-columns: 1fr 1fr;

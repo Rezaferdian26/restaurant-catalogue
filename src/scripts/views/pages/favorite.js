@@ -24,7 +24,7 @@ const Favorite = {
       `;
       const button = document.querySelector('button.refresh');
       button.addEventListener('click', () => {
-        location = '#';
+        window.location = '#';
       });
     } else {
       const restaurantsContainer = document.querySelector('#content');

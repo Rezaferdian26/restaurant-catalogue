@@ -126,7 +126,7 @@ nav .nav-items a:hover::before {
 }
 
 .hero {
-  background-image: url('../public/images/heros/hero-image_2.jpg');
+  background-image: url('../public/images/heros/hero-image_2-large.jpg');
   background-position: center;
   background-size: cover;
   isolation: isolate;

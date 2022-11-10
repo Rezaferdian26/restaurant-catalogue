@@ -55,7 +55,7 @@ const DetailRestaurant = {
       `;
       const button = document.querySelector('button.refresh');
       button.addEventListener('click', () => {
-        location.reload();
+        window.location.reload();
       });
     }
   },
