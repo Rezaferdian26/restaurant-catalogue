@@ -105,7 +105,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
 const createRestaurantItemTemplate = (restaurant) => `
         <article tabindex="0" class="mb-2 restaurant-item">
             <picture>
-              <source media="(max-width: 600px)" srcset="${CONFIG.BASE_IMAGE_URL_SMALL + restaurant.pictureId}">
+              <source media="(max-width: 600px)" data-srcset="${CONFIG.BASE_IMAGE_URL_SMALL + restaurant.pictureId}">
               <img class="lazyload" data-src="${CONFIG.BASE_IMAGE_URL_LARGE + restaurant.pictureId}" alt="${restaurant.name}">
             </picture>
             <div class="city">${restaurant.city}</div>
